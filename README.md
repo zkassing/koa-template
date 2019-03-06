@@ -1,3 +1,22 @@
+## 1. 安装
+```cmd
+npm install 
+
+或者使用
+
+yarn
+```
+
+## 2. 运行
+```
+// 开发环境
+npm run dev
+
+// 生产环境
+npm start
+```
+
+## 文件结构
 ```
 config
   db.js // 数据库配置
@@ -13,7 +32,10 @@ scripts
   query.js // 这个是链接数据库的配置
 ```
 
-配置顺序就是
+## 配置内容
+
+配置顺序
+
 `router -> controller -> service -> model -> query`
 1. router中获取到参数传递给controller
 ```
