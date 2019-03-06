@@ -1,6 +1,6 @@
 module.exports = {
-  host: 'localhost',
-  user: 'kassing',
-  password: 'zhangkuan.123',
-  database: 'db_yuedu'
+  host: '',
+  user: '',
+  password: '',
+  database: ''
 }
