@@ -1,4 +1,4 @@
-const query = require('../scripts/query')
+const query = require('./query')
 
 exports.getArticlesModel = async (values) => {
   // 查询对应的数据库
