@@ -16,7 +16,7 @@ npm run dev
 npm start
 ```
 
-## 文件结构
+## 3. 文件结构
 ```
 config
   db.js // 数据库配置
@@ -32,7 +32,7 @@ scripts
   query.js // 这个是链接数据库的配置
 ```
 
-## 配置内容
+## 4. 配置内容
 
 配置顺序
 
@@ -41,7 +41,7 @@ scripts
 ```
 url params参数 ctx.params.xxx
 url query参数 ctx.query.xxx
-url post请求参数 ctx.body.xxx
+url post请求参数 ctx.request.body.xxx
 ```
 2. controller接收到参数后传递给service
 3. service接收到参数后传递给model
